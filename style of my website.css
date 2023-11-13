@@ -1,3 +1,19 @@
 body{
     background-color: lightskyblue;
 }
+
+button {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+   }
+   
+   button:active {
+       background-color: #3e8e41;
+       box-shadow: 0 5px darkred;
+       transform: translateY(4px);
+   }
