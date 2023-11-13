@@ -9,11 +9,6 @@ h1 {
     color: white;
 }
 
-ul{
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: small;
-   color: white;
-}
 
 button {
     border: 1px solid rgb(209, 209, 209);
@@ -26,7 +21,7 @@ button {
    
    button:active {
        background-color: white;
-       box-shadow: 0 5px rgb(167, 175, 248);
+       box-shadow: 0 5px rgb(115, 129, 248);
        transform: translateY(4px);
    }
 .container-navigation{
