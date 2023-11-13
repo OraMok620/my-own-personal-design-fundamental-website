@@ -2,8 +2,10 @@ body{
     background-color: lightskyblue;
 }
 
-header {
-    align-items: center;
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center
 }
 
 button {
