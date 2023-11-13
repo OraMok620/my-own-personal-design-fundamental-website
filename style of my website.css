@@ -1,6 +1,5 @@
 body{
     background-color: lightskyblue;
-    align-items: center;
 }
 
 button {
@@ -18,3 +17,9 @@ button {
        box-shadow: 0 5px rgb(167, 175, 248);
        transform: translateY(4px);
    }
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
