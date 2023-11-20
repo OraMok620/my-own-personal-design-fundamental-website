@@ -30,22 +30,3 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-
-img {
-    width: 30%;
-    height: 30%;
-}
-
-main {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   align-items: center;
-}
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-}
