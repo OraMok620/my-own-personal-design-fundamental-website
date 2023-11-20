@@ -32,9 +32,13 @@ button {
 }
 
 img {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    width: 30%;
+    height: 30%;
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
 }
