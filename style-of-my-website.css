@@ -30,3 +30,11 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+
+img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
