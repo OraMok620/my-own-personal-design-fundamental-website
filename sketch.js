@@ -3,9 +3,6 @@ let h = 1000;
 let dotsArray = [];
 
 function setup() {
-  createCanvas(1000, 1000);
-  noFill()
-  stroke(255,0,);
   // Create objects
   for (let i = 0; i < 50; i++) {
     // create a an object data type to store each dot values
