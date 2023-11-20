@@ -3,7 +3,7 @@ let h = 1000;
 let dotsArray = [];
 
 function setup() {
-  createCanvas(50000,50000);
+  createCanvas(2000,2000);
   noFill();
   noStroke();
   // Create objects
@@ -34,15 +34,15 @@ function draw() {
 
     // Check boundaries and bounce back
     if (ellipseObj.x < 0 || ellipseObj.x > width) {
-      ellipseObj.speedX *= -1;
+      ellipseObj.speedX *= 10;
     }
     if (ellipseObj.y < 0 || ellipseObj.y > height) {
-      ellipseObj.speedY *= -1;
+      ellipseObj.speedY *= 10;
     }
 
     // Draw the ellipse
     stroke(235,140,250);
-    strokeWeight(2);
+    strokeWeight(3);
     ellipse(ellipseObj.x, ellipseObj.y, ellipseObj.diameter);
   }
 }
