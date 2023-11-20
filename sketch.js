@@ -1,9 +1,9 @@
-let w = 1000;
-let h = 1000;
+let w = 1200;
+let h = 1900;
 let dotsArray = [];
 
 function setup() {
-  createCanvas(2000,2000);
+  createCanvas(1300,2000);
   noFill();
   noStroke();
   // Create objects
@@ -12,9 +12,9 @@ function setup() {
     let ellipseObj =  {
       x: random(w),
       y: random(h),
-      diameter: random(10, 50),
-      speedX: random(-2, 2), // Random horizontal speed
-      speedY: random(-2, 2), // Random vertical speed
+      diameter: random(30, 80),
+      speedX: random(-10, 10), // Random horizontal speed
+      speedY: random(-10, 10), // Random vertical speed
     };
     dotsArray.push(ellipseObj);
   }
