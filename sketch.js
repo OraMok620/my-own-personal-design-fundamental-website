@@ -1,5 +1,5 @@
-let w = 1200;
-let h = 1900;
+let w = 1300;
+let h = 2000;
 let dotsArray = [];
 
 function setup() {
