@@ -42,7 +42,7 @@ function draw() {
 
     // Draw the ellipse
     stroke(235,140,250);
-    strokeWeight(3);
+    strokeWeight(5);
     ellipse(ellipseObj.x, ellipseObj.y, ellipseObj.diameter);
   }
 }
