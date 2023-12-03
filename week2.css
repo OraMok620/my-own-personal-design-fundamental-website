@@ -40,3 +40,13 @@ ul {
 ol {
     list-style-type: upper-roman;
 }
+
+li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fave {
+    color: orangered;
+}
