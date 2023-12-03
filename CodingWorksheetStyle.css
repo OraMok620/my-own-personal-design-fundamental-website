@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-link {
+    display: block;
+    margin-bottom: 10px;
+}
