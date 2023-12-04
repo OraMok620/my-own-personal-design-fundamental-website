@@ -14,3 +14,9 @@ body {
     display: block;
     margin-bottom: 10px;
 }
+
+.worksheetimage {
+    border: 2px solid pink;
+    width: 300px;
+    
+}
