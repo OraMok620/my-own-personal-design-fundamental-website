@@ -26,7 +26,6 @@ header {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 .image-card img {
@@ -37,5 +36,5 @@ header {
 
 .image-card p {
     padding: 15px;
-    text-align: justify;
+    text-align: center;
 }
