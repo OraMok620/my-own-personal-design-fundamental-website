@@ -1,8 +1,9 @@
 body {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-flow: column;
+    height: auto;
     margin: 0;
 }
 
@@ -18,5 +19,5 @@ body {
 .worksheetimage {
     border: 2px solid pink;
     width: 300px;
-    
+
 }
