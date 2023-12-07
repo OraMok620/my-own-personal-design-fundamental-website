@@ -13,7 +13,9 @@ body {
 }
 
 .image-container {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .image-link {
@@ -25,4 +27,8 @@ body {
     border: 2px solid pink;
     width: 300px;
 
+}
+
+h1 {
+    color: pink;
 }
