@@ -3,7 +3,7 @@ let h = 2000;
 let dotsArray = [];
 
 function setup() {
-  createCanvas(1300,2000);
+  createCanvas(displayWidth,displayHeight);
   noFill();
   noStroke();
   // Create objects
