@@ -7,14 +7,14 @@ function setup() {
   noFill();
   noStroke();
   // Create objects
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 1000; i++) {
     // create a an object data type to store each dot values
     let ellipseObj =  {
       x: random(w),
       y: random(h),
-      diameter: random(30, 80),
-      speedX: random(-10, 10), // Random horizontal speed
-      speedY: random(-10, 10), // Random vertical speed
+      diameter: random(40, 100),
+      speedX: random(-30,30), // Random horizontal speed
+      speedY: random(-30,30), // Random vertical speed
     };
     dotsArray.push(ellipseObj);
   }
@@ -41,8 +41,9 @@ function draw() {
     }
 
     // Draw the ellipse
-    stroke(235,140,250);
+    stroke(255);
     strokeWeight(5);
+    fill (255);
     ellipse(ellipseObj.x, ellipseObj.y, ellipseObj.diameter);
   }
 }
