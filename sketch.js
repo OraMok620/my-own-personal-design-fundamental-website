@@ -1,5 +1,3 @@
-let w = 1300;
-let h = 2000;
 let dotsArray = [];
 
 function setup() {
@@ -10,8 +8,8 @@ function setup() {
   for (let i = 0; i < 1000; i++) {
     // create a an object data type to store each dot values
     let ellipseObj =  {
-      x: random(w),
-      y: random(h),
+      x: random(displayWidth),
+      y: random(displayHeight),
       diameter: random(40, 100),
       speedX: random(-30,30), // Random horizontal speed
       speedY: random(-30,30), // Random vertical speed
