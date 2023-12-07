@@ -32,3 +32,8 @@ body {
 h1 {
     color: pink;
 }
+
+p {
+    text-align: left;
+    color: palevioletred;
+}
