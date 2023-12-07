@@ -11,8 +11,8 @@ function setup() {
       x: random(displayWidth),
       y: random(displayHeight),
       diameter: random(40, 100),
-      speedX: random(-30,30), // Random horizontal speed
-      speedY: random(-30,30), // Random vertical speed
+      speedX: random(-10,10), // Random horizontal speed
+      speedY: random(-10,10), // Random vertical speed
     };
     dotsArray.push(ellipseObj);
   }
