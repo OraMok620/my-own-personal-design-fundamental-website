@@ -10,6 +10,7 @@ header {
     padding: 20px;
     background-color: black;
     color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -40,6 +41,8 @@ header {
     text-align: center;
 }
 
-h1 {
+.rp {
     color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
