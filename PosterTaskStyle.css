@@ -31,8 +31,8 @@ header {
 }
 
 img {
-    width: 29.62cm;
-    height: 21.01cm;
+    max-width: 100%;
+    height: auto;
 }
 
 .caption {
