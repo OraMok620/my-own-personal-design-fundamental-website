@@ -17,14 +17,15 @@ button {
     padding: 10px;
     margin: 2px;
     transition-duration: .1s;
-   }
+}
    
-   button:active {
-       background-color: white;
-       box-shadow: 0 5px rgb(115, 129, 248);
-       transform: translateY(4px);
-   }
-.container-navigation{
+button:active {
+    background-color: white;
+    box-shadow: 0 5px rgb(115, 129, 248);
+    transform: translateY(4px);
+}
+
+.container-navigation {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
