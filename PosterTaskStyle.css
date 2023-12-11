@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #45bed3;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding:1cm;
@@ -14,8 +14,8 @@ header {
 
 .gallery {
     display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-wrap:wrap;
     padding: 20px;
 }
 
